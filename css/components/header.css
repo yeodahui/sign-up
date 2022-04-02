@@ -1,0 +1,17 @@
+.header {
+  z-index: 9999;
+  background-color: #7b9acc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+
+h1.logo {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}

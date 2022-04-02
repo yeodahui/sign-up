@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>회원가입 - 회원정보입력</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">Yeodahui</h1>
+    </header>
+    <div class="wrapper">
+      <article class="main">
+        <h2 class="user-info">회원 정보 입력</h2>
+        <form class="user-info-form" action="" method="post">
+          <div class="input">
+            <label class="input-title necessery" for="id">아이디</label>
+            <input
+              type="text"
+              placeholder="아이디 입력(5~11자)"
+              name="아이디"
+              id="id"
+            />
+          </div>
+          <div class="input">
+            <label class="input-title necessery" for="pw">비밀번호</label>
+            <input
+              type="password"
+              placeholder="비밀번호 입력"
+              name="비밀번호"
+              id="pw"
+            />
+            <input
+              type="password"
+              placeholder="비밀번호 확인"
+              name="비밀번호 확인"
+              id="pw_conf"
+            />
+          </div>
+          <div class="input">
+            <label class="input-title necessery" for="name">이름</label>
+            <input
+              type="text"
+              name="이름"
+              id="name"
+              placeholder="사용자 이름"
+            />
+          </div>
+          <div class="input">
+            <label class="input-title" for="birth">생년월일</label>
+            <input type="date" name="생년월일" id="birth" />
+          </div>
+          <div class="input gender">
+            <span class="input-title">성별</span>
+            <div class="gender-option">
+              <input type="radio" name="성별" id="male" />
+              <label for="male">남</label>
+              <input type="radio" name="성별" id="female" />
+              <label for="female">여</label>
+              <input type="radio" name="성별" id="other" />
+              <label for="other">선택안함</label>
+            </div>
+          </div>
+          <div class="input">
+            <label class="input-title necessery" for="email">이메일</label>
+            <input
+              type="text"
+              name="이메일"
+              id="email"
+              placeholder="userID@domain.com"
+            />
+          </div>
+          <p class="input">
+            <label class="input-title necessery" for="phone">휴대전화</label>
+            <input
+              type="tel"
+              name="휴대전화"
+              id="phoneNumber"
+              placeholder="하이픈(-)없이 입력"
+            />
+          </p>
+          <hr />
+          <button class="big-btn" type="submit">회원가입</button>
+        </form>
+      </article>
+    </div>
+    <footer></footer>
+  </body>
+</html>

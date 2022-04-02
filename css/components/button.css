@@ -1,0 +1,35 @@
+.pre-next-btns {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+  border: 0;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #7b9acc;
+}
+
+.next-btn {
+  border: #7b9acc;
+  background-color: #7b9acc;
+  color: #fff;
+}
+
+.big-btn {
+  margin: 15px 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #7b9acc;
+  font-size: 1.3em;
+  color: white;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+}
